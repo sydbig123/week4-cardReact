@@ -6,16 +6,26 @@ function App() {
 
     return (
       <div className="App">
-        <h1>Hello World!</h1>
-        <h1>Welcome to my card</h1>
-        <img src="https://cdn.creatureandcoagency.com/uploads/2021/03/FrogLifecycle_Body_8.png" alt="Frog" />
-        <div className="paragraph">
-          <p>This is a picture of a frog that I found on the internet. It looks really cool, and I thought it would be nice to share.</p>
+        <div class="container">
+          <div class="wrapper">
+            <h1 class="header">Sheetz</h1>
+            <div class="shake">
+              <h2>Milkshake</h2>
+              <img src="https://orders.sheetz.com/image/anywhere-menu/en/large/sbc_frozen_shake_oreo.png" alt="shakeIMG"/>
+
+            </div>
+            <div class="Footer">
+              <details class="details">
+                <summary>Details</summary>
+                <p>Cookiez-N-Cream Milkshake: $5.19</p>
+              </details>
+            </div>
+          </div>
         </div>
-        <div class="btn-wrapper">
- <a href="https://hax.psu.edu">
-   <button>Details</button> </a> </div>
+
       </div>
+
+      
     );
   }
 
